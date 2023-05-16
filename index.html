@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="index.js"></script>
+    <title>HelpDesk</title>
+</head>
+<body>
+    <div class="Serviços ">
+        <h1>Central de Serviços</h1>
+        <span class="material-symbols-outlined">account_circle</span>
+    </div>
+    <div class="central">
+        <ul>
+            <li><span class="material-symbols-outlined">
+                contacts
+                </span> Principal</li>
+            <li><span class="material-symbols-outlined">computer</span>  Base de Conhecimento</li>
+            <li><span class="material-symbols-outlined">call</span>  Novo Chamado</li>
+            <li><span class="material-symbols-outlined">
+                phone_in_talk
+                </span> Lista de Chamados</li>
+        </ul>
+    </div>
+    <div class="call">
+        <h2>Chamado: 2719949</h2>
+    </div>
+    <div class="prod">
+        <h2>Produto/Processo/Módulo</h2>
+        <label for="produto">Produto:</label>
+        <select name="" id="produto">
+            <option selected>
+            ECOMMERCE DE TERNOS
+            </option>
+            <option>
+            ECOMMERCE DE CAMISAS
+            </option>
+            <option>
+            CALCULADORA
+            </option>
+            <option>
+            ECOMMERCE DE RELÓGIOS
+            </option>
+            <option>
+            BALL GAME
+            </option>
+            <option>
+            MANUAL
+            </option>
+            <option>
+            ARRAY
+            </option>
+            <option>
+            ECOMMERCE DE LIVROS
+            </option>
+            <option>
+            VIAGENS INTERNACIONAIS
+            </option>
+        </select>
+        <label for="processo">Processo: </label>
+        <select name="" id="processo">
+            <option>
+                ATENDIMENTO
+            </option>
+            <option>
+                RONALDO NAZÁRIO
+            </option>
+            <option>
+                MIROSLAV KLOSE
+            </option>
+            <option>
+                NEYMAR JÚNIOR
+            </option>
+            <option>
+                MICHELANGELO
+            </option>
+            <option>
+                LIU KANG
+            </option>
+            <option>
+                SHELDON COOPER
+            </option>
+            <option>
+                CRISTIANO RONALD
+            </option>
+            <option>
+                PAULO GEORGE
+            </option>
+            <option>
+                LUIS SUÁREZ
+            </option>
+            <option>
+                LUANEL MESSI
+            </option>
+        </select>
+        <label for="modulo">Módulo: </label>
+        <select name="" id="modulo">
+            <option>
+                OPERAÇÕES
+            </option>
+            <option>
+                CATÁLOGO
+            </option>
+            <option>
+                VENDAS
+            </option>
+            <option>
+                INTERFACE
+            </option>
+            <option>
+                SEGURANÇA
+            </option>
+        </select>
+    </div>
+    <div class="mix">
+        <h2><span class="material-symbols-outlined">
+            calendar_add_on
+            </span> * Caminho/Natureza/Severidade/Vencimento/Versão</h2>
+        <div>
+            <label for="caminho">Caminho: </label>
+            <input placeholder="Manutenção de Equipamentos" type="text" id="caminho">
+        </div>
+        <div>
+            <label for="natureza">Natureza: </label>
+            <select name="" id="natureza">
+                <option>
+                    Evolutiva
+                </option>
+                <option>
+                    Preventiva
+                </option>
+                <option>
+                    Adaptativa
+                </option>
+                <option>
+                    Corretiva
+                </option>
+            </select>
+        </div>
+        <div>
+            <label for="vencimento">Vencimento: </label>
+            <input id="veterano" placeholder="O vencimento será calculado pelo sistema" type="text">
+        </div>
+    </div>
+    <div class="tit">
+        <h2><span class="material-symbols-outlined">
+            calendar_add_on
+            </span>* Título/Descrição</h2>
+        <div>
+            <label for="titulo">Título: </label>
+            <input placeholder="Erro na tela de login" type="text" id="titulo">
+        </div>
+        <div>
+            <label id="descricao">Descrição:</label>
+            <textarea rows="10" cols="170"></textarea>
+        </div>
+    </div>
+    <div class="meneger">
+        <button><span class="material-symbols-outlined"> done</span></button>
+        <button><span class="material-symbols-outlined">close</span></button>
+    </div>
+    <div id="tabela">
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Processo</th>
+                <th>Módulo</th>
+                <th>Tempo de Manutenção</th>
+            </tr>
+            <tr>
+                <td>ECOMMERCE DE TERNOS</td>
+                <td>VENDAS</td>
+                <td>EVOLUTIVA</td>
+                <td>7 DIAS</td>
+            </tr>
+            <tr>
+                <td>CALCULADORA</td>
+                <td>OPERAÇÕES</td>
+                <td>CORRETIVA</td>
+                <td>2 HORAS</td>
+            </tr>
+            <tr>
+                <td>ECOMMERCE DE RELÓGIOS</td>
+                <td>VENDAS</td>
+                <td>PREVENTIVA</td>
+                <td>5 DIAS</td>
+            </tr>
+            <tr>
+                <td>ARRAY</td>
+                <td>INTERFACE</td>
+                <td>ADAPTATIVA</td>
+                <td>5 DIAS</td>
+            </tr>
+            <tr>
+                <td>MANUAL</td>
+                <td>SEGURANÇA</td>
+                <td>PREVENTIVA</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ECOMMERCE DE TÊNIS</td>
+                <td>VENDAS</td>
+                <td>CORRETIVA</td>
+                <td>14 DIAS</td>
+            </tr>
+            <tr>
+                <td>BALL GAME</td>
+                <td>INTERFACE</td>
+                <td>EVOLUTIVA</td>
+                <td>10 DIAS</td>
+            </tr>
+            <tr>
+                <td>VIAGENS INTERNACIONAIS</td>
+                <td>VENDAS</td>
+                <td>PREVENTIVA</td>
+                <td>8 DIAS</td>
+            </tr>
+            <tr>
+                <td>ECOMMERCE DE CAMISAS</td>
+                <td>VENDAS</td>
+                <td>PREVENTIVA</td>
+                <td>12 DIAS</td>
+            </tr>
+            <tr>
+                <td>ECOMMERCE DE LIVROS</td>
+                <td>VENDAS</td>
+                <td>EVOLUTIVA</td>
+                <td>6 DIAS</td>
+            </tr>
+        </table>
+    </div>
+    <button id="btn_imp">Imprimir</button>
+</body>
+</html>
